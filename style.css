@@ -17,10 +17,48 @@
     /* dark */
     --alternador: linear-gradient(to right, #378fe6, #3eda82);
     --azul-escuro: #1e202a;
-    --azul-muito-escuro: 
+    --azul-muito-escuro: #1f212e;
+    --azul-escuro-dessaturado: #252a41;
+    --azul-desaturado: #8b97c6;
+    --branco: #ffffff;
 
     /* light */
+    --alternador: #aeb3cb;
+    --branco: #ffffff;
+    --azul-muito-claro: #f5f7ff;
+    --azul-cizento-claro: #f0f2fa;
+    --azul-cizento-escuro: #63687e;
+    --azul-muito-escuro-texto: #1e202a;
+}
 
+body{
+    margin: 2.5rem 1.5rem;
+    font-family: var(--font-padrao);
+}
+
+/* header */
+
+
+header h1{
+    color: var(--azul-muito-escuro-texto);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.5rem auto;
+}
+
+header h2{
+    color: var(--azul-cizento-escuro);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--azul-cizento-escuro);
+}
+
+header p{
+    color: var(--azul-cizento-escuro);
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1.5rem auto 2.5rem ;
 }
 
 
