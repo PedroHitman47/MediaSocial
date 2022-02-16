@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --font-padrao: 'Inter', sans-serif;
+
+    /* primarias */
+    --verde-lima: #1db489;
+    --vermelho-brilhante: #dc414c;
+
+    --facebook: #198ff5;
+    --twitter: #1ca0f2;
+    --instagram: linear-gradient(to right, #fdc468, #df4996);
+    --youtube: #c4032a;
+
+    /* dark */
+    --alternador: linear-gradient(to right, #378fe6, #3eda82);
+    --azul-escuro: #1e202a;
+    --azul-muito-escuro: 
+
+    /* light */
+
+}
+
+
+
