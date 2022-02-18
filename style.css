@@ -11,7 +11,7 @@
 
     --facebook: #198ff5;
     --twitter: #1ca0f2;
-    --instagram: linear-gradient(to right, #fdc468, #df4996);
+    --instagram: linear-gradient(to right, #fdc468, #df4996) 1;
     --youtube: #c4032a;
 
     /* dark */
@@ -58,8 +58,131 @@ header p{
     color: var(--azul-cizento-escuro);
     font-size: 0.9rem;
     font-weight: 700;
-    margin: 1.5rem auto 2.5rem ;
+    margin: 1.1rem auto 2.9rem ;
 }
+
+/* medias */
+
+ .facebook, .twitter, .instagram, .youtube{
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+    margin: 1.5rem auto;
+    background-color: var(--azul-cizento-claro);
+}
+
+.facebook{
+    border-top: 0.3rem solid var(--facebook);
+}
+
+.twitter{
+    border-top: 0.3rem solid var(--twitter);
+}
+
+.instagram{
+    border-top: 0.3rem solid;
+    border-image: var(--instagram);
+}
+
+.youtube{
+    border-top: 0.3rem solid var(--youtube);
+}
+
+.medias .perfil{
+    color: var(--azul-cizento-escuro);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+.medias img{
+    margin: 0 0.3rem;
+}
+
+.medias h2{
+    color: var(--azul-muito-escuro-texto);
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0.5rem auto;
+}
+
+.medias h3{
+    color: var(--azul-cizento-escuro);
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+ .bom-engajamento{
+    color: var(--verde-lima);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0.6rem;
+}
+
+ .mal-engajamento{
+    color: var(--vermelho-brilhante);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* overview */
+
+.overview h1{
+    color: var(--azul-cizento-escuro);
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.face-page, .face-likes, .insta-likes, .insta-profile,  .twitter-retweets, .twitter-likes, .youtube-likes, .youtube-views{
+    width: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+    margin: 1rem auto;
+    background-color: var(--azul-cizento-claro);
+    display: grid;
+    grid-template-columns:  1fr 50px;
+    grid-template-rows: 38px 38px;
+    justify-content: end;
+    align-items: baseline;
+}
+
+.overview .title{
+    color: var(--azul-cizento-escuro);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.overview img{
+    justify-self: end;
+}
+
+.overview strong{
+    color: var(--azul-escuro);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.overview .bom-engajamento, .overview .mal-engajamento{
+    padding: 0;
+    justify-self: end;
+    align-items: center;
+}
+
+
+
 
 
 
