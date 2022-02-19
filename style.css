@@ -37,7 +37,11 @@ body{
 }
 
 /* header */
-
+header{
+    display: grid;
+    grid-template-rows: 2rem auto 3rem;
+    /* padding-bottom: 1.6rem; */
+}
 
 header h1{
     color: var(--azul-muito-escuro-texto);
@@ -57,6 +61,7 @@ header p{
     color: var(--azul-cizento-escuro);
     font-size: 0.9rem;
     font-weight: 700;
+    align-self: center;
 }
 
 /* medias */
@@ -136,7 +141,7 @@ header p{
 
 /* overview */
 
-.overview h1{
+.overview-title{
     color: var(--azul-cizento-escuro);
     font-size: 1.6rem;
     font-weight: 700;
